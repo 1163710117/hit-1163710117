@@ -1,0 +1,9 @@
+char a1;  /*声明char变量*/
+int a2;   /*声明int变量*/
+float a3;  /*声明float变量*/
+boolean a4;  /*声明boolean变量*/
+string a5;   /*声明string变量*/
+int [4][3] a6;
+char [5] a7;
+record:{int a8;} a9;
+proc int get(){ char a10; }

@@ -1,0 +1,29 @@
+char a1;  /*声明char变量*/
+int a2;   /*声明int变量*/
+float a3;  /*声明float变量*/
+boolean a4;  /*声明boolean变量*/
+string a5;   /*声明string变量*/
+int [4][3] a6;
+char [5] a7;
+record:{int a8;} a9;
+proc int get(){ char a10; }
+
+a1 = 'c';
+a2 = 3 + 4;
+a3 = 3.14 + 4.12;
+a4 = "true";
+a5 = "str";
+a6[1][2] = 4;
+a7[3] = 'b';
+
+if a1=='c' && !(a4!=3)
+then a2 = 5;
+else a2 = 6;
+
+if a2-3>2
+then a2 = 1;
+
+while a2>1
+do a2 = a2-1;
+
+call get()
